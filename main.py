@@ -33,3 +33,10 @@ elif medida == 3:
   medida2 = "cm"
 
 print("El valor es: ", valor, medida2)
+
+def km_m(a):
+  m=a/1000
+  return m
+
+Km=input("Kilometros: ")
+print(km_m(Km))
